@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #6D67E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 1em;
+     width:80px;
+}
+
+.opcoes {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+} 
+
+.opcoes__link {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    padding: 0 1em;
+    text-transform: uppercase;
+}
+
+body {
+    background: #ffffff;
+}

@@ -24,7 +24,7 @@
   justify-content: center;
   z-index: 10;  
 }
-
+/* Mensagem final que ficará escondida com hide*/
 #fade .spinner-border {
   width: 60px;
   height: 60px;
@@ -42,3 +42,51 @@
   border-bottom: 1px solid #333;
   padding: 1.2em 0;
 }   
+
+/* Etapas de pagamento */
+#order-form-container {
+  padding: 1.5em;
+} 
+
+#steps {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.step i {
+  background-color: var(--secondary-bg-color);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.step .active {
+  background-color:var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.step p {
+  color: var(--text-color);
+}
+
+.line {
+  border-bottom: 1px solid var(--border-color);
+  position: absolute;
+  top: 22.5px;
+  width: 90%;
+  left: 5%;
+  z-index: -1;
+}

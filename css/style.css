@@ -96,7 +96,7 @@
   color: var(--text-color);
 }
 
-/* Parte do formulário - campo endereço */
+/* Parte do formulário de endereço */
 
 #order-form-container input,
 #order-form-container select {

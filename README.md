@@ -8,3 +8,4 @@
 - [x] Criar etapas de processo com os icones
 - [x] Criar inputs
 - [x] Adicionar estados do modelo de API
+- [x] Criando botão de cadastrar

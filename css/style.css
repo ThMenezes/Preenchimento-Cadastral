@@ -1,9 +1,9 @@
 :root {
-  --bg-color: #263159;
-  --secondary-bg-color: #494a7d;
+  --bg-color: #3B5998;
+  --secondary-bg-color: #B7C4CF;
   --primary-color: #ffffff;
   --secondary-color: #00005C;
-  --text-color: #858585;
+  --text-color: #798777;
   --border-color: #20235b;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .step p {
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 .line {

@@ -5,6 +5,7 @@ const inputNeighborhood = document.querySelector("#neighborhood")
 const inputCity = document.querySelector("#city")
 const inputRegion = document.querySelector("#region")
 const inputsForm = document.querySelectorAll("[data-input]");
+
 const closeButton = document.querySelector("#close-message");
 const fadeElement = document.querySelector("#fade")
 
@@ -46,7 +47,7 @@ const getAddress = async (cep) => {
 
     /* mostrar erro e redefinir formulário */
     
-    if (data.erro === "true") {
+    if (data.erro) {
         if (!inputAddress.hasAttribute("disabled")) {
             toggleDisabled();
         }
@@ -96,6 +97,7 @@ const toggleLoader = () => {
 
 const toggleMessage = (msg) => {
     const messageElement = document.querySelector("#message");
+    
     const messageElementText = document.querySelector("#message p");
 
     messageElementText.innerText = msg;
